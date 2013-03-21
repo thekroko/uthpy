@@ -12,7 +12,7 @@ import irc
 
 def f_reload(phenny, input): 
    """Reloads a module, for use by admins only.""" 
-   if not input.admin: return
+   # if not input.admin: return
 
    name = input.group(2)
    if name == phenny.config.owner: 

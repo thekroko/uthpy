@@ -70,9 +70,9 @@ def g(phenny, input):
       phenny.bot.last_seen_uri[input.sender] = uri
    elif uri is False: phenny.reply("Problem getting data from Google.")
    else: phenny.reply("No results found for '%s'." % query)
-g.commands = ['g']
+g.commands = ['goog']
 g.priority = 'high'
-g.example = '.g swhack'
+g.example = '.goog swhack'
 
 def oldgc(phenny, input): 
    """Returns the number of Google results for the specified input."""

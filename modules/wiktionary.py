@@ -89,8 +89,8 @@ def w(phenny, input):
    if len(result) > 300: 
       result = result[:295] + '[...]'
    phenny.say(result)
-w.commands = ['w']
-w.example = '.w bailiwick'
+w.commands = ['wk']
+w.example = '.wk bailiwick'
 
 def encarta(phenny, input): 
    return phenny.reply('Microsoft removed Encarta, try .w instead!')

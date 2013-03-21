@@ -140,7 +140,7 @@ def main(argv=None):
          module.prefix = r'\.'
 
       if not hasattr(module, 'name'): 
-         module.name = 'Phenny Palmersbot, http://inamidst.com/phenny/'
+         module.name = 'Python, yay!'
 
       if not hasattr(module, 'port'): 
          module.port = 6667
