@@ -48,7 +48,7 @@ def startup(phenny, input):
 
    # Start the ping loop. Has to be done after USER on e.g. quakenet
    if phenny.data.get('startup.setup.pingloop'):
-     phenny.data['startup.setup.pingloop']()
+      phenny.data['startup.setup.pingloop']()
 
    if hasattr(phenny.config, 'serverpass'): 
       phenny.write(('PASS', phenny.config.serverpass))
